@@ -215,7 +215,6 @@ body {
 .main-page__actions {
     display: grid;
     grid-template-columns: minmax(140px, 148px) minmax(180px, 200px);
-    grid-template-rows: 52px;
     gap: 24px;
 }
 
@@ -627,6 +626,8 @@ body {
     align-self: end;
 }
 
+
+
 .courses-page__items {
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(500px,1fr));
@@ -735,7 +736,11 @@ body {
     
     .item-course { 
         grid-template-columns: auto;
-        grid-template-rows: 215px 1fr; 
+        grid-template-rows: auto 1fr; 
+    }
+
+    .item-course__image  {
+       padding-bottom: 60%;
     }
 
     .item-course__image img {
